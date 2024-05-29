@@ -1,0 +1,27 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["My pleasure", "You're Welcome"],
+         "context": [""]
+        },
+        {"tag": "query",
+         "patterns": ["What is Artificial Intellegence?","What is AI?","Tell something about AI"],
+         "responses": ["Artificial intelligence is the science of making machines that can think like humans. It can do things that are considered 'smart'.AI technology can process large amounts of data in ways, unlike humans. The goal for AI is to be able to do things such as recognize patterns, make decisions, and judge like humans. "],
+         "context": [""]
+        },
+        {
+            "tag": "unknown",
+            "patterns": [],
+            "responses": ["I'm sorry, I don't understand that question.", "Could you please rephrase your question?", "I'm not sure what you're asking."]
+        } 
+    ]}
